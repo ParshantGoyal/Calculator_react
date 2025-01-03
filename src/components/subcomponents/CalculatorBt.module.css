@@ -1,0 +1,35 @@
+.main{
+    text-align: center;
+    border: 2px solid #d45757;
+    border-radius: 20px;
+    background-color: #d45757;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1200) {
+    .main{
+        width: 80vw;
+    }
+    
+}
+
+.input{
+    width: 80%;
+    padding:15px 5px;
+    margin:20px auto;
+    border: 2px solid #d45757;
+    border-radius: 10px;
+    background-color: rgb(219, 171, 171);
+
+}
+.btgroup{
+    width: 80%;
+    margin: 10px 35px 25px 35px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+
+}
